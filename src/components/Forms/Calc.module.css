@@ -17,6 +17,12 @@
     align-items: center;
 }
 
+.instrucao {
+    font-size: 18px;
+    color: var(--corBlack);
+    text-align: center;
+}
+
 .inputs {
     margin-bottom: 8px;
     border: 2px solid var(--corOrange);
@@ -37,4 +43,8 @@
 .obeso {
     color: var(--corObeso);
     font-weight: bold;
+}
+
+.error {
+    color: var(--corRed);
 }
