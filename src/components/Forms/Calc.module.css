@@ -1,0 +1,40 @@
+.header {
+    background-color: var(--corOrange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0 20px;
+    margin-bottom: 80px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.form {
+    font-size: 18px;
+    color: var(--corBlack);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    margin-bottom: 8px;
+    border: 2px solid var(--corOrange);
+}
+
+.subpeso {
+    color: var(--corSub);
+    font-weight: bold;
+}
+.peso {
+    color: var(--corPeso);
+    font-weight: bold;
+}
+.sobrepeso {
+    color: var(--corSobre);
+    font-weight: bold;
+}
+.obeso {
+    color: var(--corObeso);
+    font-weight: bold;
+}
