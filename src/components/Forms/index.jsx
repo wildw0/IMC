@@ -13,10 +13,10 @@ const Formulario = () => {
     const [nome, setNome] = useState('');
     const [pontoDecimal, setpontoDecimal] = useState(false);
 
-    const AlturaErro = (event) => {
-        if (event.key === ".") {
+    const AlturaErro = (evento) => {
+        if (evento.key === ".") {
         if (pontoDecimal) {
-            event.preventDefault()
+            evento.preventDefault()
         } else {
             setpontoDecimal(true);
         }
